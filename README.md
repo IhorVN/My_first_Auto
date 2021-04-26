@@ -8,7 +8,7 @@ driver = webdriver.Chrome(executable_path='C:\Program Files\JetBrains\PyCharm Co
 driver = webdriver.Chrome(DRIVER)
 driver.get('https://www.y8.com/')
 
-time.sleep(3)
+time.sledriver = webdriver.Chrome(DRIVER)ep(3)
 screenshot = driver.save_screenshot('www.y8.com.png')
 
 driver.quit()
