@@ -12,3 +12,12 @@ time.sledriver = webdriver.Chrome(DRIVER)ep(3)
 screenshot = driver.save_screenshot('www.y8.com.png')
 
 driver.quit()
+
+Или
+
+from selenium import webdriver
+
+driver = webdriver.Chrome(r'C:\Utility\BrowserDrivers\chromedriver.exe')
+driver.get("https://www.y8.com/")
+driver.save_screenshot('./Screenshots/save_screenshot_method.png')
+driver.quit()
